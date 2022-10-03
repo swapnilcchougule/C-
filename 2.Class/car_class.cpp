@@ -28,7 +28,7 @@ using namespace std;  // it means that we can use names for Objects and variable
                       
 class car        // Create a Car class with some attributes   
 {
- public:         // Public access specifier (members are accessible from outside the class)
+ private:         // Public access specifier (members are accessible from outside the class)
   string brand;  // attributes or data members
   string model;
   int year; 
