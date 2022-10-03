@@ -4,7 +4,7 @@ using namespace std;
 
 class Employee{  
  public:       //access specifier
-  int id;      //data member (also instance variable)   
+  int id;      //data member (also instance variable, also attributes.) When variables are declared within a class, they are called attributes
   string name; //data member(also instance variable)  
   float salary;  
   void insert(int i, string n, float s)   // function insert is public function 
