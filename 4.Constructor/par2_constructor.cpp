@@ -16,15 +16,16 @@ class Car 	    // The class
   string brand;    // Attribute1
   string model;    // Attribute2
   int year;        // Attribute3
-  
-  /* Constructor defined inside the class*/
-  Car(string b, string m, int y)  // Constructor with parameters
-  {brand = b;
-   model = m;
-   year = y;
-   cout << brand << " " << model << " " << year << "\n"; // Print values,when constructor is invocked
-   }
+  Car(string x, string y, int z); // Constructor declaration
 };
+
+/*  Constructor definition outside the class */
+Car::Car(string x, string y, int z) 
+{brand = x;
+ model = y;
+ year = z;
+ cout << brand << " " << model << " " << year << "\n"; // Print values,when constructor is invocked
+}
  
 int main()
 {
