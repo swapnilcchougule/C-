@@ -3,8 +3,9 @@ constructor has same name as the class, followed by parentheses ()
 Types: 1. Default constructor (no arguments)  2. Paramaterized constructor
 Rules: 1.Same name as class
        2.no return type
-       3.public access specifier 
+       3.public access specifier
 */
+
 /*This example illustrate Paramaterized Constructor*/ 
 
 #include<iostream>
