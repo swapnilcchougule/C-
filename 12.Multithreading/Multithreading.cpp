@@ -22,7 +22,7 @@ int main ()
  int i;
  for( i = 0; i < NUM_THREADS; i++ )
   {cout << "main() : creating thread, " << i << endl;
-   rc = pthread_create(&threads[i], NULL, PrintHello, (void *)&i);
+   rc = pthread_create(&threads[i], NULL, PrintHello, (void *)i);
    if (rc)
    {cout << "Error:unable to create thread," << rc << endl;
     exit(-1);
