@@ -6,19 +6,34 @@ Structure is a collection of different data types. It is similar to the class th
 #include <string>
 using namespace std;
 
-struct Student
+// Declare a structure named "Student"
+struct student
 {int id;
  string name;
  int age;
 };
 
+// Declare a structure named "car"
+struct car 
+{string brand;
+ string model;
+ int year;
+};
+
+
 int main()
-{Student s1;
+{// Create a car structure and store it in myCar1;
+ student s1;
  s1.id = 7;
  s1.name = "swapnil";
  s1.age = 27;
 
-
+ // Create a car structure and store it in myCar1;
+ car car1;
+ car1.brand = "BMW";
+ car1.model = "X5";
+ car1.year = 1999;
 
  cout << s1.id << " " << s1.name  << " " << s1.age << "\n";
+ cout << car1.brand << " " << car1.model  << " " << car1.year << "\n";
 }
