@@ -26,8 +26,10 @@ int main()
   }
   cout << "Size of vector v1 is : " << v1.size() <<"\n"; // show the size of vector
   for(int i=0;i<v1.size();i++)
-  {cout<<v1.operator[](i) << "\n"; ;          // v1.operator[ ](pos); This function is used to access a specified element.
+  {cout<<v1.operator[](i) << "\n"; 		           // v1.operator[ ](pos); This function is used to access a specified element.
   }
+  v1.push_back(16);   
+  cout << v1[5] << "\n"; 
 }
 
 
