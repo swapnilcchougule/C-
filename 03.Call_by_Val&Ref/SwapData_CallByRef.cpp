@@ -13,12 +13,20 @@ void swap(int *x,int *y)  // function to swap the data
  *y=swap;
 }
 
+void swap_num(int &i, int &j)
+{int temp = i;
+ i = j;
+ j = temp;
+}
 
 int main()
-{int x = 500,y=800;
- swap(&x,&y);             // passing reference (address) to function        
+{int x = 500,y=800,a=100,b=200;
+ swap(&x,&y);             // passing reference (address) to function      
+ swap_num(a,b);
  cout << "value of the x is : "<< x << endl;
  cout << "value of the y is : "<< y << endl;
+ cout << "a is " << a << "\n";
+ cout << "b is " << b << "\n";
  return 0; 
 }
 
