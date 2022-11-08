@@ -1,0 +1,13 @@
+Introduction: https://academy.jfrog.com/path/conan/introduction-to-conan
+Document    : https://docs.conan.io/en/latest/introduction.html
+	      https://conan.io/
+
+Introduction to Conon: 
+Conan is a dependency and package manager for C and C++ languages. It is free and open-source, works on all platforms (Windows, Linux, OSX, FreeBSD, Solaris, etc.)
+
+1. Abstracting away build systems. 
+   - conon recipe
+2. Defining a Project API for C and C++ Projects
+3. A repository for multi-binary packages
+4. CI build primitive
+
